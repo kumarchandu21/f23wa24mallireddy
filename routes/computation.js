@@ -14,13 +14,12 @@ let n3 = 0;
 
    res.send(`Random Numbers are ${r1} and ${r2}
    
-   \n
-   Rounded values are ${r1} is ${n1}
+   \n <br>
+   Rounded value of ${r1} is ${n1}
    
-   \n
-   Rounded values are ${r2} is ${n2}
+   \n <br>
+   Rounded value of ${r2} is ${n2}
    
-   \n
-   Rounded values are ${r1} is ${n3}`);
+   `);
  });
  module.exports = router;
