@@ -8,11 +8,13 @@ let n2 = 0;
 let n3 = 0;
 
  router.get('/', function(req, res, next){
+  res.render('computation',{n1:`Math.round is ${Math.round(r1)}`});
    n1 = Math.round(r1);
    n2 = Math.round(r2);
    n3 = Math.round(r1);
 
    res.send(`Random Numbers are ${r1} and ${r2}
+  
    
    \n <br>
    Rounded value of ${r1} is ${n1}
